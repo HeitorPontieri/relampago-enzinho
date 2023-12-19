@@ -70,10 +70,10 @@
 @media (max-width:499px){
     .relampago1{
       width: 350px;
-    height: fit-content;
+        height: fit-content;
     }
     #section-phrase{
-        height: 500px;
+        height: 350px;
         width: 350px;
         display: flex;
     }
