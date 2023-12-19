@@ -30,8 +30,6 @@
   /* background-color: blueviolet; */
   display: flex;
   align-items: center;
-  padding-left: 100px;
-  padding-right: 100px;
 }
 .texts {
   display: flex;
@@ -41,6 +39,8 @@
   font-family: "Trirong", serif;
   font-weight: 400;
   font-size: 1.5rem;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .video {
   /* background-color: tomato; */
@@ -67,14 +67,14 @@
 }
 @media (max-width: 499px) {
   .relampago1 {
-    width: 350px;
+    width: 300px;
     height: fit-content;
   }
   #section-phrase {
     height: 400px;
     width: 350px;
     display: flex;
-    
+    align-items: center;
   }
   .final-txt {
     font-size: 1.5rem;
