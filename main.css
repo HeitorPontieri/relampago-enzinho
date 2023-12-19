@@ -64,3 +64,15 @@
         flex-direction: column;
     }
 }
+@media (max-width:768px){
+    .relampago1{
+      width: 350px;
+    height: fit-content;
+    }
+    .final-txt{
+        background-color: pink;
+        font-size: 2rem;
+        width: 100px;
+
+    }
+}
